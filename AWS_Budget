@@ -1,0 +1,14 @@
+Steps to setting up alert for usage on AWS
+Login to the AWS Management Console as a Root User 
+Go to 'AWS Cost Explorer'
+On the left pane click on 'Budgets'
+Click on 'Create Budget'
+Select 'Cost Budget' clck 'Next' and make the following entries:
+Name: (Any Name); Period: (Daily, Monthly, Quarterly, or Annually)  Budegeting Method: (Select 'Fixed') Budgeting Amount (set your amount) Scope: (Select 'All Services')
+Click 'Next'
+Under 'Configure Alerts' you can set threshhold where aert goes off when threshold is reached
+Select threshold in either %of budgeted amount say 80%,or actual value. Under 'Trigger' select 'Actual'
+Select notiffication preference when threshold is reached: choose email and provide email
+Click on 'Next' and 'Next' again
+Review and click 'Create budget'
+Your budget is created!
